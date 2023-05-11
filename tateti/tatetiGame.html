@@ -8,7 +8,7 @@
     <h1>BIENVENIDO AL TA-TE-TI</h1>
     <div class="informacion">
         <label for="player1">Jugador X:</label>
-        <input type="text" id="player1" name="player1">
+        <input type="text" id="player1" name="player1" autofocus>
         <label for="player2">Jugador O:</label>
         <input type="text" id="player2" name="player2">
     </div>
@@ -28,7 +28,9 @@
       <div class="square" id="7"></div>
       <div class="square" id="8"></div>
     </div>
-    <button id="reset-button">Reiniciar</button>
+    <div id="button-container">
+      <button id="reset-button">Reiniciar</button>
+    </div>
     <script src="tatetiJava.js"></script>
   </body>
 </html>

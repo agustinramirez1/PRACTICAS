@@ -25,6 +25,10 @@
   
   #reset-button {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
   }
   body{
     background-color: coral;
@@ -38,10 +42,11 @@
     text-align: center;
     margin: 20px;
   }
-  #reset-button{
-    text-align: center;
-    background-color: white; 
-    margin: 20px;
+
+  #button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   p{
     border: 3px;
